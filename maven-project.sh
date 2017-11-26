@@ -6,7 +6,7 @@ if [ -z "$PROJECT_NAME" ]; then
     exit 1
 fi
 
-echo Creating Gradle project in $PWD/$PROJECT_NAME...
+echo Creating Maven project in $PWD/$PROJECT_NAME...
 mkdir -p $PROJECT_NAME/src/{main,test}/{java,resources}
 
 echo "<project>
