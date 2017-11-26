@@ -10,14 +10,14 @@ $ project <project name>
 The script will create the project in the current working directory.
 
 ## Gradle Projects
-Copy paste the following command into your terminal to install the gradle project script:
+Copy paste the following command into your terminal to install the Gradle project script:
 
 ```bash
 sudo curl --progress-bar https://raw.githubusercontent.com/richardjwild/miscellaneous/master/gradle-project.sh > /usr/local/bin/project && sudo chmod 755 /usr/local/bin/project
 ```
 
 ## Maven Projects
-Copy paste the following command into your terminal to install the gradle project script:
+Copy paste the following command into your terminal to install the Maven project script:
 
 ```bash
 sudo curl --progress-bar https://raw.githubusercontent.com/richardjwild/miscellaneous/master/maven-project.sh > /usr/local/bin/project && sudo chmod 755 /usr/local/bin/project
