@@ -16,11 +16,10 @@ repositories {
 }
 
 dependencies {
-    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.7.2'
     testCompile group: 'org.easytesting', name: 'fest-assert', version: '1.4'
     testCompile group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
-    testCompile group: 'pl.pragmatists', name: 'JUnitParams', version: '1.1.0'
 }
 " > $PROJECT_NAME/build.gradle
 
