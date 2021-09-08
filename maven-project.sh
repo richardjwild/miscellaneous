@@ -22,7 +22,7 @@ echo "<project>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
+      <artifactId>junit-jupiter</artifactId>
       <version>5.7.2</version>
     </dependency>
     <dependency>
